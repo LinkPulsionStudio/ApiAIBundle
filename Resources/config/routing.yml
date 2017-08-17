@@ -1,0 +1,3 @@
+api_ai_homepage:
+    path:     /
+    defaults: { _controller: ApiAIBundle:Default:index }
