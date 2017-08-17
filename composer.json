@@ -1,0 +1,30 @@
+{
+  "name" : "lpstudio/apiaibundle",
+  "description" : "A bundle for using api.ai",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "Cyprien Aubry",
+    "email" : "cyprienaubry@linkpulsion.com"
+  }],
+  "keywords" : [
+    "symfony bundle api ai artificial intelligence"
+  ],
+  "license" : [
+    "Apache-2.0"
+  ],
+  "require" : {
+    "php": ">=5.5.9",
+    "iboldurev/api-ai-php": "^0.2"
+  },
+  "autoload" : {
+    "psr-0" : {
+      "LPStudio\\ApiAIBundle" : ""
+    }
+  },
+  "target-dir" : "LPStudio/ApiAIBundle",
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "1.0.0-dev"
+    }
+  }
+}
