@@ -19,7 +19,7 @@ new LPStudio/ApiAIBundle/ApiAIBundle()
 
 Add these line to your app/config.yml:
 ```yml
-api.ai:
+api_ai:
     access_token: 'YOUR_ACCESS_TOKEN'
 ```
 And replace YOUR_ACCESS_TOKEN with your Api.ai agent access token (use the dev
